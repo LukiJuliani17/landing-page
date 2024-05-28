@@ -1,0 +1,113 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:lightseagreen;
+
+}
+
+div{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.header {
+    background-color:rgb(104, 104, 196);
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    color: burlywood;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.nav ul li a:hover {
+    color:rgb(104, 104, 196);
+}
+.main {
+    background-color: palevioletred;
+    display: flex;
+}
+.contect {
+
+    width:100%;
+    margin:0;
+    background-color: white;
+    padding: 20px;
+
+}
+
+
+.contect .artikel{
+    margin-top: 10px;
+    margin-left: 0;
+    width:100%;
+    background-color: lightslategray;
+    border-radius: 2px;
+    border: 2px solid lightskyblue
+    padding:10px;
+    line-height: 1.6em;
+}
+
+.contect .artikel .read {
+    color:black;
+    border: 1px solid lightseagreen
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contect .artikel .read a {
+    color:blue;
+
+}
+
+
+.sidebar {
+    justify-content: left;
+    border: 1px solid lightcoral;
+    background-color: brown;
+    width: 40%;
+    margin: 0;
+    padding: 20px;
+
+
+}
+
+.sidebar h4{
+    text-align: left;
+
+
+}
+
+.sidebar ul li {
+    list-style: none;
+    line-height: 3em;
+
+
+}
+
+.sidebar a {
+    color: blueviolet;
+    text-decoration: none;
+    text-align: left;
+
+
+}
+
+
+.footer {
+    background-color: rgb(104, 104, 196);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
